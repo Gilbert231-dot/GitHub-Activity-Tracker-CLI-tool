@@ -17,11 +17,6 @@ A command-line interface app that gets you, recent information about your github
 python main.py github-activity `username`
 
 ### Output
-
-Command👇
-=================
-|github-activity|
-=================
 'PushEvent' event type in 'Gilbert231-dot/Task-Tracker-CLI-App'
 
 'PushEvent' event type in 'Gilbert231-dot/Task-Tracker-CLI-App'
