@@ -26,3 +26,5 @@ python main.py github-activity `username`
 'CreateEvent' event type in 'Gilbert231-dot/Task-Tracker-CLI-App'
 
 {'CreateEvent': 1, 'PushEvent': 3}
+
+https://roadmap.sh/projects/github-user-activity
