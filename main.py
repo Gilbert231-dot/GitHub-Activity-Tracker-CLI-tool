@@ -30,22 +30,31 @@ def Github_Activity():
         json.dump(Data, f, indent=2)
     
     # Get the type and name of the events from the response one by one.
-    event_dict = {}
-    count = 0
+    event_type_list = [
+        "PushEvent",          
+        "CreateEvent",       
+        "DeleteEvent",        
+        "ForkEvent",          
+        "WatchEvent",      
+        "IssuesEvent",       
+        "IssueCommentEvent",  
+        "PullRequestEvent",  
+        "ReleaseEvent"
+    ]
+
+    types_list = []
     for info in Data:
         event_type = info["type"]
+        types_list.append(event_type)
         event_repo_name = info["repo"]["name"]
-
-        if info["type"] in event_dict:
-            event_dict[info["type"]] += count
-        else:
-            event_dict[info["type"]] = 1
-            count += 1
-
         print(f"'{event_type}' event type in '{event_repo_name}'\n")
-
-    # Show user a dictionary of each event and the number of times it happened.
-    print(event_dict)
+    
+     # Show user each event and the number of times it happened.
+    for i in event_type_list:
+        if i in types_list:
+            print(f"{i} : {types_list.count(i)}")
+            print('-'*15)
+      
     
 
 def main():

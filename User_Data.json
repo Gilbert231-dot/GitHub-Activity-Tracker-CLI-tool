@@ -1,5 +1,150 @@
 [
   {
+    "id": "8961673468",
+    "type": "PushEvent",
+    "actor": {
+      "id": 210925303,
+      "login": "Gilbert231-dot",
+      "display_login": "Gilbert231-dot",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Gilbert231-dot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/210925303?"
+    },
+    "repo": {
+      "id": 1170997526,
+      "name": "Gilbert231-dot/GitHub-Activity-Tracker-CLI-tool",
+      "url": "https://api.github.com/repos/Gilbert231-dot/GitHub-Activity-Tracker-CLI-tool"
+    },
+    "payload": {
+      "repository_id": 1170997526,
+      "push_id": 31255733312,
+      "ref": "refs/heads/main",
+      "head": "0e6b62776772324890e8456b4283d4a451c34d37",
+      "before": "ce391ed8cfc3b921289f861a61ea3467ae553e3b"
+    },
+    "public": true,
+    "created_at": "2026-03-02T19:27:24Z"
+  },
+  {
+    "id": "8961633169",
+    "type": "PushEvent",
+    "actor": {
+      "id": 210925303,
+      "login": "Gilbert231-dot",
+      "display_login": "Gilbert231-dot",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Gilbert231-dot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/210925303?"
+    },
+    "repo": {
+      "id": 1170997526,
+      "name": "Gilbert231-dot/GitHub-Activity-Tracker-CLI-tool",
+      "url": "https://api.github.com/repos/Gilbert231-dot/GitHub-Activity-Tracker-CLI-tool"
+    },
+    "payload": {
+      "repository_id": 1170997526,
+      "push_id": 31255692989,
+      "ref": "refs/heads/main",
+      "head": "ce391ed8cfc3b921289f861a61ea3467ae553e3b",
+      "before": "c9491c11d8fb0071239bdcbe34101199241ef7fa"
+    },
+    "public": true,
+    "created_at": "2026-03-02T19:26:00Z"
+  },
+  {
+    "id": "7014989560",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 210925303,
+      "login": "Gilbert231-dot",
+      "display_login": "Gilbert231-dot",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Gilbert231-dot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/210925303?"
+    },
+    "repo": {
+      "id": 1143842508,
+      "name": "Gilbert231-dot/git-code-sample",
+      "url": "https://api.github.com/repos/Gilbert231-dot/git-code-sample"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2026-03-02T19:09:06Z"
+  },
+  {
+    "id": "7014989017",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 210925303,
+      "login": "Gilbert231-dot",
+      "display_login": "Gilbert231-dot",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Gilbert231-dot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/210925303?"
+    },
+    "repo": {
+      "id": 1168270178,
+      "name": "Gilbert231-dot/Task-Tracker-CLI-App",
+      "url": "https://api.github.com/repos/Gilbert231-dot/Task-Tracker-CLI-App"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2026-03-02T19:09:05Z"
+  },
+  {
+    "id": "7014988672",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 210925303,
+      "login": "Gilbert231-dot",
+      "display_login": "Gilbert231-dot",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Gilbert231-dot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/210925303?"
+    },
+    "repo": {
+      "id": 1170997526,
+      "name": "Gilbert231-dot/GitHub-Activity-Tracker-CLI-tool",
+      "url": "https://api.github.com/repos/Gilbert231-dot/GitHub-Activity-Tracker-CLI-tool"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2026-03-02T19:09:04Z"
+  },
+  {
+    "id": "8961079598",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 210925303,
+      "login": "Gilbert231-dot",
+      "display_login": "Gilbert231-dot",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Gilbert231-dot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/210925303?"
+    },
+    "repo": {
+      "id": 1170997526,
+      "name": "Gilbert231-dot/GitHub-Activity-Tracker-CLI-tool",
+      "url": "https://api.github.com/repos/Gilbert231-dot/GitHub-Activity-Tracker-CLI-tool"
+    },
+    "payload": {
+      "ref": "main",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/main",
+      "master_branch": "main",
+      "description": "A CLI tool to track GitHub user activity.",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-03-02T19:06:39Z"
+  },
+  {
     "id": "8862317059",
     "type": "PushEvent",
     "actor": {
